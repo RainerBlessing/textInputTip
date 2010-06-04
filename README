@@ -5,7 +5,7 @@ http://remysharp.com/2007/03/19/a-few-more-jquery-plugins-crop-labelover-and-plu
 
 Instructions:
 
--Specify the text in the title attribute of the input field.
+-Specify the text in the title attribute of the input field: e.g. <input id="idOfElement" class="inputField" type="text" title="This is the hint."/>
 -Define the style for the overlay: e.g. .overlay { color: #ccc; position: absolute; top: 5px; left: 5px;}
 -Apply the function to the input field: e.g. $('.inputField').textInputTip('overlay');
  
