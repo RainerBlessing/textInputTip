@@ -1,0 +1,11 @@
+This plugin displays a helping text in the text input field of a form.
+I extended the labelOver plugin and simplified the usage so that no extra html elements have to be added.
+The original plugin:
+http://remysharp.com/2007/03/19/a-few-more-jquery-plugins-crop-labelover-and-pluck/comment-page-2/#labelOver
+
+Instructions:
+
+-Specify the text in the title attribute of the input field.
+-Define the style for the overlay: e.g. .overlay { color: #ccc; position: absolute; top: 5px; left: 5px;}
+-Apply the function to the input field: e.g. $('.inputField').textInputTip('overlay');
+ 
